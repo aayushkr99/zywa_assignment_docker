@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: citylink
+      MYSQL_DATABASE: aayushDB
+  app:
+    image: assignment
+    ports:
+      - "4000:3000"

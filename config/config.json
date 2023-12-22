@@ -1,0 +1,9 @@
+{
+    "development": {
+      "username": "root",
+      "password": "citylink",
+      "database": "aayushDB",
+      "host": "db",
+      "dialect": "mysql"
+    }
+  }
